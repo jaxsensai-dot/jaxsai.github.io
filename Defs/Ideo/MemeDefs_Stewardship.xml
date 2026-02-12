@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <MemeDef>
+    <defName>Stewardship</defName>
+    <label>stewardship</label>
+    <description>This ideology teaches that people are caretakers of the world, not owners of it. Followers value kindness, avoid unnecessary harm, and try to leave every place healthier than they found it.</description>
+    <impact>2</impact>
+
+    <forcedTraits>
+      <li>
+        <defName>Kind</defName>
+        <degree>0</degree>
+      </li>
+    </forcedTraits>
+
+    <disallowedTraits>
+      <li>Psychopath</li>
+      <li>Bloodlust</li>
+    </disallowedTraits>
+
+    <exclusiveWith>
+      <li>Raider</li>
+      <li>Supremacist</li>
+      <li>Cannibal</li>
+    </exclusiveWith>
+  </MemeDef>
+</Defs>
